@@ -48,6 +48,7 @@ describe 'Feature Test: Cart', :type => :feature do
      end
 
      it "sets current_cart to nil on checkout" do
+     
        visit cart_path(@user.current_cart)
        click_button("Checkout")
 
